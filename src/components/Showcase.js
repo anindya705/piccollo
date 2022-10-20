@@ -23,8 +23,7 @@ const theme = createTheme({
 const style = {
   marginLeft: 10,
   marginRight:10,
-  textTransform: 'lowercase',
-
+  textTransform: 'none',
 };
 
 
@@ -40,15 +39,15 @@ const Showcase = () => {
   return (
     <section className='showcase'>
       <div className='showcase-overlay'>
-        <h1>level up your game. anytime. anywhere.</h1>
+        <h1>Say hello to Picklyze.</h1>
         <div className="size">
           <h3>
-          get personalized, professional coaching from the world's best for just $25. without ever having to leave your room.
+            The best way to recieve quality pickleball coaching in the world. 
           </h3>
         </div>
         <div className="redirect">
           <Fab href={"https://docs.google.com/forms/d/e/1FAIpQLSdoh_pbdV9Qbz8axv5RwGA6296HOQupZtHW8ZfZPvG_VLqyBw/viewform"} style={style} variant="extended">
-            LevelUp™ 🚀
+            Find an Instructor
           </Fab>
           <Fab onClick={handleScroll} style={style} variant="extended">
             wait, how? 🤔 
